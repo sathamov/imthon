@@ -20,3 +20,80 @@ img{
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.contner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.nav_listil{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.linklar{
+    display: flex;
+    margin-left: 400px;
+}
+
+.link{
+    margin: 10px;
+    color: black;
+    transition: 0.5s; 
+}
+
+.link:hover{
+    color: crimson;
+}
+
+.linkk{
+    margin-top: 5px;
+    color: black;
+    border: 1px solid #00BAFC;;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.linkk:hover{
+    background-color: #00BAFC;;
+    color: white;
+}
+
+/*main*/
+
+.contener{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main_text{
+    margin-top: 100px;
+}
+
+.hammasi{
+    display: flex;
+}
+
+.text_biznes{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.nullame{
+    font-size: 20px;
+}
+
+.video{
+    width: 560px;;
+    height: 315px;
+}
+
