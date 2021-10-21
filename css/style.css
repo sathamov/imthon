@@ -367,3 +367,92 @@ body{
         margin: 0 auto;
     }
 }
+
+.biz{
+    margin: 40px;
+    text-align: center;
+}
+.biz_title{
+    margin-bottom: 30px;
+}
+
+.biz_text{
+    width: 600px;
+    margin: 0 auto;
+}
+.bir{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bir_img{
+    width: auto;
+}
+
+.bir_text{
+    width: 500px;
+}
+
+
+@media(max-width:1160px){
+    .container{
+        width: 1060px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:1060px){
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:960px){
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:860px){
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:760px){
+    .container{
+        width: 600px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .bir{
+        flex-wrap: wrap;
+    } 
+}
+
+@media(max-width:660px){
+    .container{
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:560px){
+    .container{
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:460px){
+    .container{
+        width: 300px;
+        margin: 0 auto;
+    }
+}
